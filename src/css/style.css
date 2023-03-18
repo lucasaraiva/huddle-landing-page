@@ -16,6 +16,8 @@ body{
     background-size: cover;
     padding: 30px;
     color: #fff;
+    
+    min-height: 100vh;
 }
 
 .header {
@@ -33,7 +35,7 @@ body{
     display: grid;
     grid-template-columns: 50% 1fr;
     align-items: center;
-    max-width: 1920px;
+    max-width: var(--max-width-size);
     margin: 0 auto
 }
 
@@ -78,7 +80,7 @@ body{
     cursor: pointer;
     color: var(--fundo);
     border: none;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0);
+    box-shadow: 3px 3px 10px rgba(10, 10, 10,);
 }
 
 .principal .titles button:hover{
